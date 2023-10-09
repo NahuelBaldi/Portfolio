@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    margin-left: 350px;
+    flex-direction: column;
+}
+.theme {
+    color: #DCE3EE;
+    background-color: #11182A;
+}
+/* --------Menu lateral-------- */
+.img{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #61C0C1;
+    border-radius: 50%;
+
+}
+.menu_lateral{
+    background-color: #19213C;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.item_link{
+    color: #61C0C1;
+}
+.container_redes{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.redes_icon{
+    height: 40px;
+    width: 40px;
+}
+.redes_icon:hover{
+    transition: .5s;
+    filter: drop-shadow(0 0 5px rgb(97, 192, 193,0.5));
+}
+.item_link{
+    font-size: 1.5rem;
+}
+.container_list{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.item_link:hover{
+    transition: .5s;
+    text-shadow: 0 0 3px  rgb(97, 192, 193,1);
+    padding-left: 20%;
+}
+
+/* -------HOME-------- */
+
+#home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.btn_cv{
+    background-color: #61C0C1;
+    height: 50px;
+    width: 200px;
+    border-radius:16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.btn_cv:hover{
+    transition: .5s;
+    filter: drop-shadow(0 0 5px rgb(97, 192, 193,0.5));
+}
+.txt_descarga{
+    font-size: 1.6rem;
+    color: #11182A;
+}
+
+.nombre_home{
+    color: #61C0C1;
+    font-size: 7rem;
+
+}
+
+.nahuel{
+    color: #DCE3EE;
+}
+.subtitulo{
+
+    font-size: 2.5rem;
+    color: #61C0C1;
+    transition: .5s;
+    text-shadow: 0 0 3px  rgb(97, 192, 193,1);
+}
+.bienvenida {
+    margin-top: 50px;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 37ch;
+    overflow: hidden;
+    animation: typing 4s steps(40), blink .5s infinite step-end alternate;
+    text-overflow: clip;
+    font-size: 2rem;
+}
+@keyframes typing {
+    from {width: 0;}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+
+/* --------SOBRE MI------ */
+.sobre_mi{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.sobre_mi_titulo{
+    margin-top: 100px;
+    font-size: 3rem;
+    color: #61C0C1;
+    text-shadow: 0 0 3px  rgb(97, 192, 193,1);
+}
+.sobre_mi_txt{
+    font-size: 2.5rem;
+    max-width: 60%;
+}
+
+.sobre_mi_invitacion{
+    width: 100%;
+    font-size: 30px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+}
+.flecha_izquierda{
+    padding-top:50px;
+    height: 100px;
+}
+/* -------PROYECTOS----- */
+
+.proyectos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.proyectos_titulo{
+    margin-top: 100px;
+    font-size: 3rem;
+    color: #61C0C1;
+    text-shadow: 0 0 3px  rgb(97, 192, 193,1);
+}
+.container_proyectos{
+    display: flex;
+    gap: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #61C0C1;
+    width: 300px;
+    height: 500px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+
+
+#section_skills{
+    height: 100vh;
+}
+#section_formacion{
+    height: 100vh;
+}
+#section_contactame{
+    height: 100vh;
+}
